@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-title>
+    Photo Gallery
+  </ion-title>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img [src]="imageService.image" width="50%" height="50%"/>
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="takeImage()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

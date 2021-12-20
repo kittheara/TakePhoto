@@ -1,0 +1,7 @@
+{
+  "name": "eKycPhoto",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
